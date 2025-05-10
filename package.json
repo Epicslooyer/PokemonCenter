@@ -1,0 +1,23 @@
+{
+  "name": "pokemoncenter-stock-checker",
+  "version": "1.0.0",
+  "description": "Checks Pokemon Center for stock changes and queue status.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pokemon",
+    "stock",
+    "checker",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1"
+  }
+}
