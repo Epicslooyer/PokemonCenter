@@ -1,0 +1,28 @@
+{
+  "name": "pokemoncenter-stock-checker",
+  "version": "1.0.0",
+  "description": "Checks Pokemon Center for stock changes and queue status.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "pokemon",
+    "stock",
+    "checker",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.5.0",
+    "express": "^4.17.1",
+    "jest": "^29.7.0",
+    "mongodb": "6.16",
+    "mongodb-memory-server": "^10.1.4",
+    "supertest": "^7.1.1"
+  }
+}
